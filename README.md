@@ -226,14 +226,15 @@ let color = getWeightedOption([
 
 <a name="randomGaussian"></a>
 
-## randomGaussian
+## gaussianRandom
 Returns a gaussian distributed random number, centered around a mean.
 ```
-let gr = randomGaussian(5);
+let gr = gaussianRandom(5, 1);
 ```
 
 **Kind**: global constant  
 
-| Param | Description |
-| --- | --- |
-| samples | The number of samples to use in the distribution. A higher sample number will result in a tighter bell-curve |
+| Param | Default | Description |
+| --- | --- | --- |
+| mean | 0 | The number around which the distribution is centered |
+| std | .5 | The amount that the random number will deviate around the center |
