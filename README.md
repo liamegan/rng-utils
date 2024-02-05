@@ -15,7 +15,7 @@ To get started with the library:
 
 ```
 // import
-import { setRNG, randomBetween, gaussianRandom } from "@liamegan1/fxhash-helpers"
+import { setRNG, randomBetween, gaussianRandom } from "rng-utils"
 
 // If you want to set the functions to use a different RNG, say something seeded, do so using setRNG. By default, the library just uses Math.random (PRNG below curtesy of fxhash, MIT - https://github.com/fxhash/fxhash-boilerplate)
 // There are hundreds of different javascript PRNGs out there. Find one you like :)
